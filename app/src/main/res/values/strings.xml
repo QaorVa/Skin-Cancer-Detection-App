@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Asclepius</string>
+    <string name="camera_x">CameraX</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">GALLERY</string>
+    <string name="analyze">ANALYZE</string>
+    <string name="result">Hasil Analisis</string>
+    <string name="image_classifier_failed">Failed Process</string>
+    <string name="confidence_score">XX%</string>
+    <string name="desc">deskripsi</string>
+    <string name="cancer">Skin cancer detected! See the nearest dermatologist in your city as soon as possible.</string>
+    <string name="non_cancer">Good News! No skin cancer detected. Don\'t forget to apply sunscreen before going outside.</string>
+    <string name="save">Save Result</string>
+    <string name="saved">Result Saved!</string>
+    <string name="related_articles">Related Articles:</string>
+    <string name="history">History</string>
+</resources>

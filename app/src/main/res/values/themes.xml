@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Asclepius" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/pri</item>
+
+    </style>
+
+    <style name="ButtonColor" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/gradient_pri</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Theme.Asclepius" parent="Base.Theme.Asclepius">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/pri</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_image_search</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Asclepius</item>
+    </style>
+
+</resources>
